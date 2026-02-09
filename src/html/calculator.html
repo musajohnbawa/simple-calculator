@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div class="operation-arena">
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <button type="button" onclick="calculate('add')">+</button>
+        <button type="button" onclick="calculate('subtract')">-</button>
+        <button type="button" onclick="calculate('multiply')">*</button>
+        <button type="button" onclick="calculate('divide')">/</button>
+        <p id="result"></p>
+        <p id="error"></p>
+    </div>
+
+        <script src="../js/calculator.js"></script>
+  </body>
+</html>
