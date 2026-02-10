@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    height: 30vh;
+}
+
+#num1, #num2 {
+    color: white;
+    background-color: black;
+    padding: 2px 2px;
+    margin: 2px;
+    border: chartreuse solid;
+    border-radius: 10px;
+    width: 90px;
+    height: 20px;
+}
+
+button {
+    background-color: black;
+    color: chartreuse;
+}
+
+button:hover {
+    box-shadow: 0 0 10px;
+    cursor: pointer;
+}
+
+.operation-arena {
+    width: 400px;
+    box-sizing: content-box;
+    padding: 20px;
+    background-color: darkslategrey;
+    border-radius: 30px;
+    box-shadow: 0 0 15px;
+
+}
+
+#result {
+    margin: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+#error {
+    color: darkred;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
