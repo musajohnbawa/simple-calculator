@@ -34,9 +34,10 @@ button:hover {
     width: 400px;
     box-sizing: content-box;
     padding: 20px;
-    background-color: darkgrey;
+    background-color: antiquewhite;
     border-radius: 30px;
     box-shadow: 0 0 15px;
+
 }
 
 #result {
